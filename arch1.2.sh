@@ -84,8 +84,8 @@ echo 'Подключаем автозагрузку менеджера вход�
 systemctl enable NetworkManager
 
 echo 'Установка SDDM'
-  pacman -S sddm sddm-kcm --noconfirm
-  systemctl enable sddm.service -f
-  systemctl start sddm
+pacman -S sddm sddm-kcm --noconfirm
+systemctl enable sddm.service -f
+systemctl start sddm
 
 exit
